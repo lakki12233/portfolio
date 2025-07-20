@@ -11,8 +11,8 @@ const jobs = [
     date: 'Oct 2024 - Present',
     points: [
       'Developed multi-head Transformer models to recognize affective states (Engagement, Boredom, Confusion, Frustration) using Action Unit (AU) and Valence-Arousal (VA) features from the DAiSEE dataset.',
-      'Achieved 78.08% test accuracy by training multihead classifiers across AU-only, VA-only, and fused VA+AU inputs.',
-      'Implemented parallel Transformer encoders with late fusion to enhance performance in complex emotional states such as confusion and frustration.'
+      'Achieved 78.08% test accuracy via late fusion of parallel Transformers for emotion recognition.',
+      'Integrated Qwen3 (LLM) + LoRA + TRL’s SFT for efficient cross-modal fine-tuning, enabling the model to interpret structured AU/VA descriptors and generate multi-head emotion predictions via instruction-style prompts.'
     ]
   },
   {
