@@ -36,21 +36,21 @@ const otherProjects = [
     title: 'Road Lane Line Detection',
     description: 'Computer vision system for detecting road lane lines with 93.8% accuracy using OpenCV and Python. Implemented advanced image processing techniques for real-time lane detection.',
     tech: ['Python', 'OpenCV', 'NumPy', 'Computer Vision'],
-    github: '#',
+    github: 'https://github.com/lakki12233/Road-lane-line-detection',
     external: '#'
   },
   {
     title: 'Resume Screening Application',
     description: 'AI-powered resume screening tool using NLP and machine learning. Automates candidate evaluation by analyzing skills, experience, and qualifications.',
     tech: ['Python', 'NLP', 'scikit-learn', 'NLTK'],
-    github: '#',
+    github: 'https://github.com/lakki12233/Resume-Filtering-Application',
     external: '#'
   },
   {
     title: 'Object Detection System',
     description: 'Real-time object detection system using YOLO and TensorFlow. Capable of identifying multiple objects in images and video streams with high accuracy.',
     tech: ['Python', 'TensorFlow', 'YOLO', 'OpenCV'],
-    github: '#',
+    github: 'https://github.com/lakki12233/Object_Dectection',
     external: '#'
   }
 ]
