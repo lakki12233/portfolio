@@ -6,8 +6,18 @@ import { FiGithub, FiExternalLink, FiFolder } from 'react-icons/fi'
 
 const projects = [
   {
+    title: 'Trip Planner CrewAI (Gemini + Serper)',
+    description:
+      'Multi-agent travel planner built with CrewAI—agents (city selector, local expert, concierge) collaborate to generate a personalized 7-day itinerary. Integrates Gemini via CrewAI LLM + Serper web search with DuckDuckGo fallback and a website reader; config-driven .env (model/key switching, timeouts), Markdown/PDF export, and resilient retry/backoff for 429/503.',
+    tech: ['CrewAI', 'Gemini (Google AI)', 'Serper', 'DuckDuckGo', 'Python'],
+    github: 'https://github.com/lakki12233/trip_planner_crewAI',
+    external: 'https://github.com/lakki12233/trip_planner_crewAI',
+    image: '/images/trip-planner.png' 
+  },
+  {
     title: 'Visual Question Answering System',
-    description: 'A VQA system for real-world accessibility using the VizWiz dataset. Integrated CLIP (ViT-B/32) vision-language encoder with a lightweight multi-head classifier to answer questions about images captured by blind or low-vision users, achieving 70% test accuracy.',
+    description:
+      'A VQA system for real-world accessibility using the VizWiz dataset. Integrated CLIP (ViT-B/32) vision-language encoder with a lightweight multi-head classifier to answer questions about images captured by blind or low-vision users, achieving 70% test accuracy.',
     tech: ['Python', 'PyTorch', 'CLIP', 'Vision Transformer', 'Deep Learning'],
     github: 'https://github.com/lakki12233/VQA_bot',
     external: '#',
@@ -15,7 +25,8 @@ const projects = [
   },
   {
     title: 'KYC Verification System',
-    description: 'A secure e-KYC platform integrating Ethereum blockchain and CP-ABE encryption. Achieved 98% data accuracy and reduced verification redundancy by 70%. Published in ICIMA-2023 (IEEE). Features include document verification, face recognition, and digital signature validation.',
+    description:
+      'A secure e-KYC platform integrating Ethereum blockchain and CP-ABE encryption. Achieved 98% data accuracy and reduced verification redundancy by 70%. Published in ICIMA-2023 (IEEE). Features include document verification, face recognition, and digital signature validation.',
     tech: ['Ethereum', 'CP-ABE', 'Node.js', 'Express', 'Ganache', 'Solidity'],
     github: 'https://github.com/lakki12233/KYC_BLOCKCHAIN',
     external: '#',
@@ -23,13 +34,15 @@ const projects = [
   },
   {
     title: 'MERN Online Video Platform',
-    description: 'A full-stack video streaming platform with real-time chat functionality. Implemented JWT authentication, React Hooks for state management, and RESTful APIs. Features include admin dashboard with analytics, Firebase storage integration, and Google Dialogflow chatbot for user assistance.',
+    description:
+      'A full-stack video streaming platform with real-time chat functionality. Implemented JWT authentication, React Hooks for state management, and RESTful APIs. Features include admin dashboard with analytics, Firebase storage integration, and Google Dialogflow chatbot for user assistance.',
     tech: ['React', 'Node.js', 'MongoDB', 'Firebase', 'JWT', 'Context API'],
     github: 'https://github.com/lakki12233/MERN_OVP',
     external: '#',
     image: '/images/ovp.png'
   }
 ]
+
 
 const otherProjects = [
   {

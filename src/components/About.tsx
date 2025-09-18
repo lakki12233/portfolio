@@ -56,7 +56,7 @@ export default function About() {
         <div className={styles.imageWrapper}>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/pic3.jpg"
+              src="/images/dp.png"
               alt="Suman Mandava"
               fill
               sizes="(max-width: 768px) 100vw, 300px"
