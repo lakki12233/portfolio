@@ -28,3 +28,9 @@
     "typescript": "^5"
   }
 }
+{
+  "scripts": {
+    "prebuild": "node -e \"const pkgs=['next','react','react-dom','react-server-dom-webpack','react-server-dom-turbopack','react-server-dom-parcel']; for (const p of pkgs){ try{console.log(p, require(p+'/package.json').version)} catch(e){console.log(p, '(not installed)')} }\"",
+    "build": "next build"
+  }
+}
