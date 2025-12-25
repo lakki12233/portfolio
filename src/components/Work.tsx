@@ -6,6 +6,25 @@ import { FiGithub, FiExternalLink, FiFolder } from 'react-icons/fi'
 
 const projects = [
   {
+    title: "(Qwen + LoRA) — Video Affective State Analyzer",
+    description:
+      "End-to-end demo that takes a short face video, extracts Facial Action Units (AUs), predicts 0–3 levels for Engagement/Boredom/Confusion/Frustration using LoRA adapters on Qwen, and generates a short natural-language explanation grounded in the top AU cues. Deployed as a Hugging Face Space so anyone can try it instantly.",
+    tech: [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Qwen (LLM)",
+      "LoRA ",
+      "Gradio",
+      "AU / Facial Action Units",
+      "Hugging Face Spaces"
+    ],
+    github: "#", // put your repo link if public, else keep "#"
+    external: "https://huggingface.co/spaces/lakki03/AU-LLM-Demo",
+    image: "/images/au-llm-demo-poster.png"
+  },
+  
+  {
     title: 'Trip Planner CrewAI (Gemini + Serper)',
     description:
       'Multi-agent travel planner built with CrewAI—agents (city selector, local expert, concierge) collaborate to generate a personalized 7-day itinerary. Integrates Gemini via CrewAI LLM + Serper web search with DuckDuckGo fallback and a website reader; config-driven .env (model/key switching, timeouts), Markdown/PDF export, and resilient retry/backoff for 429/503.',

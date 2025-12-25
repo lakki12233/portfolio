@@ -18,7 +18,7 @@ export default function Contact() {
       </p>
 
       <a
-        href="mailto:mandavasuman@gmail.com"
+        href="mailto:sumanm2003@gmail.com"
         className={styles.button}
         rel="noopener noreferrer"
         target="_blank"
