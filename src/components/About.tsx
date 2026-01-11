@@ -14,24 +14,31 @@ export default function About() {
         <div className={styles.content}>
           <div>
             <p>
-              Hello, I&apos;m Suman Mandava, I&apos;m a Software Engineer with a Master&apos;s in Computer Science from the University at Buffalo. I&apos;ve worked across research, industry, and open source.
+              Hello, I&apos;m Suman Mandava — a Software Engineer with a Master&apos;s in Computer Science from the University at
+              Buffalo. I&apos;ve worked across research, industry, and open source.
             </p>
 
             <p>
-              I&apos;m currently an open-source contributor to Kornia (computer vision library), where I work on Vision-Language Model components, collaborate with maintainers, and write production-quality code through testing and CI.
+              I&apos;m currently an open-source contributor to Kornia (computer vision library), where I work on
+              vision-language components and collaborate with maintainers to ship clean, well-tested code.
             </p>
 
             <p>
-              As a Graduate Research Assistant, I worked on deep learning models for emotion recognition using LLM&apos;s and Transformer-based with AU and Valence–Arousal features, and built an interactive demo on Hugging Face Spaces.
+              As a Graduate Research Assistant, I worked on deep learning models for emotion recognition using
+              Transformer-based approaches with AU and Valence–Arousal features, and built an interactive demo on Hugging Face
+              Spaces.
             </p>
 
             <p>
-              In industry roles at Centum T&S and HCLTech, I built production software including metro HMI applications and a full-stack online video platform.
+              In industry roles at Centum T&amp;S and HCLTech, I built production software including metro HMI applications and a
+              full-stack online video platform.
             </p>
-            
+
             <p>
-              I&apos;m currently looking for Software Engineer roles where I can build, learn, and contribute to strong engineering teams.
+              I&apos;m currently looking for Software Engineer roles where I can build, learn, and contribute to strong engineering
+              teams.
             </p>
+
             <h3 className={styles.skillsHeading}>Core skills</h3>
           </div>
 
