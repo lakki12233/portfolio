@@ -14,15 +14,15 @@ export default function About() {
         <div className={styles.content}>
           <div>
             <p>
-              Hello, I&apos;m Suman Mandava, I’m a Software Engineer with a Master’s in Computer Science from the University at Buffalo. I’ve worked across research, industry, and open source.
+              Hello, I&apos;m Suman Mandava, I&apos;m a Software Engineer with a Master&apos;s in Computer Science from the University at Buffalo. I&apos;ve worked across research, industry, and open source.
             </p>
 
             <p>
-              I’m currently an open-source contributor to Kornia (computer vision library), where I work on Vision-Language Model components, collaborate with maintainers, and write production-quality code through testing and CI.
+              I&apos;m currently an open-source contributor to Kornia (computer vision library), where I work on Vision-Language Model components, collaborate with maintainers, and write production-quality code through testing and CI.
             </p>
 
             <p>
-              As a Graduate Research Assistant, I worked on deep learning models for emotion recognition using LLM's and Transformer-based with AU and Valence–Arousal features, and built an interactive demo on Hugging Face Spaces.
+              As a Graduate Research Assistant, I worked on deep learning models for emotion recognition using LLM&apos;s and Transformer-based with AU and Valence–Arousal features, and built an interactive demo on Hugging Face Spaces.
             </p>
 
             <p>
@@ -30,7 +30,7 @@ export default function About() {
             </p>
             
             <p>
-              I’m currently looking for Software Engineer roles where I can build, learn, and contribute to strong engineering teams.
+              I&apos;m currently looking for Software Engineer roles where I can build, learn, and contribute to strong engineering teams.
             </p>
             <h3 className={styles.skillsHeading}>Core skills</h3>
           </div>
