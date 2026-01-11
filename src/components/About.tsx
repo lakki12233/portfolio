@@ -56,7 +56,7 @@ export default function About() {
               <ul className={styles.skills}>
                 <li>PyTorch & TensorFlow</li>
                 <li>Computer Vision</li>
-                <li>Transformer Models & LLM's</li>
+                <li>Transformer Models & LLM&amp;s</li>
               </ul>
             </div>
           </div>
