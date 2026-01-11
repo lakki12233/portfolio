@@ -182,3 +182,15 @@
     padding: 0 10px;
   }
 } 
+
+.prLink {
+  display: inline-block;
+  margin: 6px 0 14px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #64ffda;
+}
+
+.prLink:hover {
+  text-decoration: underline;
+}

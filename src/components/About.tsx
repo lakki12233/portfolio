@@ -14,22 +14,24 @@ export default function About() {
         <div className={styles.content}>
           <div>
             <p>
-              Hello, I&apos;m Suman Mandava, a software developer with experience in building web-based applications 
-              and a growing interest in machine learning and AI. I began by developing a video streaming platform 
-              using the MERN stack and have continued to work on projects and internships that involve creating 
-              efficient, user-focused systems.
+              Hello, I&apos;m Suman Mandava, I’m a Software Engineer with a Master’s in Computer Science from the University at Buffalo. I’ve worked across research, industry, and open source.
             </p>
 
             <p>
-              Currently, my research at the University at Buffalo focuses on deep learning models for emotion 
-              recognition and vision-language tasks, where I explore Transformer architectures and CLIP-based encoders.
+              I’m currently an open-source contributor to Kornia (computer vision library), where I work on Vision-Language Model components, collaborate with maintainers, and write production-quality code through testing and CI.
             </p>
 
             <p>
-              I enjoy learning and working across different areas—whether it&apos;s web technologies, intelligent systems, 
-              or emerging tools in AI—and I&apos;m always open to exploring new fields and challenges.
+              As a Graduate Research Assistant, I worked on deep learning models for emotion recognition using LLM's and Transformer-based with AU and Valence–Arousal features, and built an interactive demo on Hugging Face Spaces.
             </p>
 
+            <p>
+              In industry roles at Centum T&S and HCLTech, I built production software including metro HMI applications and a full-stack online video platform.
+            </p>
+            
+            <p>
+              I’m currently looking for Software Engineer roles where I can build, learn, and contribute to strong engineering teams.
+            </p>
             <h3 className={styles.skillsHeading}>Core skills</h3>
           </div>
 
@@ -47,7 +49,7 @@ export default function About() {
               <ul className={styles.skills}>
                 <li>PyTorch & TensorFlow</li>
                 <li>Computer Vision</li>
-                <li>Transformer Models</li>
+                <li>Transformer Models & LLM's</li>
               </ul>
             </div>
           </div>

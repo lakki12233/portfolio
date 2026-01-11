@@ -5,15 +5,30 @@ import styles from './Experience.module.css'
 
 const jobs = [
   {
+    company: 'Kornia (Open Source)',
+    url: 'https://kornia.org/',
+    title: 'Open-Source Contributor',
+    date: 'Jan 2026 - Present',
+    points: [
+      'Implemented core components of the Qwen2.5-VL Vision Encoder in Kornia’s main codebase.',
+      'Built modular, type-safe PyTorch components and improved production readiness with tests and CI fixes.',
+      'Collaborated with maintainers through reviews and debugging to ensure clean integration.'
+    ],
+    linkLabel: 'PR #3409',
+    linkUrl: 'https://github.com/kornia/kornia/pull/3409'
+  },
+  {
     company: 'UB Research',
     url: 'https://www.buffalo.edu/ai',
     title: 'Research Assistant',
-    date: 'Oct 2024 - Present',
+    date: 'Oct 2024 - Dec 2025',
     points: [
       'Developed multi-head Transformer models to recognize affective states (Engagement, Boredom, Confusion, Frustration) using Action Unit (AU) and Valence-Arousal (VA) features from the DAiSEE dataset.',
       'Achieved 78.08% test accuracy via late fusion of parallel Transformers for emotion recognition.',
       'Integrated Qwen3 (LLM) + LoRA + TRL’s SFT for efficient cross-modal fine-tuning, enabling the model to interpret structured AU/VA descriptors and generate multi-head emotion predictions via instruction-style prompts.'
-    ]
+    ],
+    linkLabel: 'Live Demo',
+    linkUrl: 'https://huggingface.co/spaces/lakki03/AU-LLM-Demo'
   },
   {
     company: 'Centum T&S',
@@ -52,6 +67,7 @@ const jobs = [
 
 export default function Experience() {
   const [activeTab, setActiveTab] = useState(0)
+  const activeJob = jobs[activeTab]
 
   return (
     <section id="experience" className={styles.experience}>
@@ -74,17 +90,30 @@ export default function Experience() {
 
         <div className={styles.tabContent}>
           <h3>
-            <span>{jobs[activeTab].title}</span>
+            <span>{activeJob.title}</span>
             <span className={styles.company}>
               &nbsp;@&nbsp;
-              <a href={jobs[activeTab].url} target="_blank" rel="noreferrer">
-                {jobs[activeTab].company}
+              <a href={activeJob.url} target="_blank" rel="noreferrer">
+                {activeJob.company}
               </a>
             </span>
           </h3>
-          <p className={styles.date}>{jobs[activeTab].date}</p>
+
+          <p className={styles.date}>{activeJob.date}</p>
+
+          {activeJob.linkUrl && (
+            <a
+              className={styles.prLink}
+              href={activeJob.linkUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {activeJob.linkLabel ?? 'Pull Request'} ↗
+            </a>
+          )}
+
           <ul>
-            {jobs[activeTab].points.map((point, i) => (
+            {activeJob.points.map((point, i) => (
               <li key={i}>{point}</li>
             ))}
           </ul>
@@ -92,4 +121,4 @@ export default function Experience() {
       </div>
     </section>
   )
-} 
+}
