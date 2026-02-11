@@ -45,13 +45,13 @@ const SocialLinks = () => {
         transition={{ duration: 0.5, delay: 1 }}
       >
         <motion.a
-          href="mailto:sumanman@buffalo.edu"
+          href="mailto:sumanm2003@gmail.com"
           className={styles.emailLink}
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 1.5 }}
         >
-          sumanman@buffalo.edu
+          sumanm2003@gmail.com
         </motion.a>
       </motion.div>
     </>
